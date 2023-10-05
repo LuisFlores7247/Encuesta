@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #29284a;
+  padding: 10px;
+}
+body {
+  background-color: white;
+}
+
+.app {
+  background-color: #ededf7;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  display: flex;
+
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  border-bottom: 1px solid #ccd1d1;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+.ingresar {
+  background: #222;
+  color: #fff;
+  font-weight: 500;
+  width: 20vh;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+header .ingresar {
+  margin: 0;
+}
+
+.ingresar:hover {
+  background: #fff;
+  color: #222;
+}
+
+input {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+footer {
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ccd1d1;
+  color: #7e8082;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 0;
+}
+
+.error h1 {
+  font-size: 24px;
+}
+
+.error p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.error a {
+  color: black;
+}
+
+.selected {
+  color: #fff;
+  background-color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+  height: 47px;
+  margin: 10px;
+}
+header a {
+  height: auto;
+  width: auto;
+}
+
+header h3 {
+  color: white;
+  margin: 0;
+}
+.centrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  width: 100%;
+  margin: 0;
+  padding: 0 10%;
+}
+.centrar h1 {
+  margin: 20px;
+}
+
+#concluir {
+  background: #222;
+  color: #fff;
+  font-weight: 500;
+  width: 20%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 50px 30%;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#error-message {
+  display: none;
+  width: 90%;
+  background: #ff9393;
+  text-align: center;
+  max-width: 200px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#concluido {
+  display: none;
+  width: 90%;
+  background: #9aeabc;
+  text-align: center;
+  max-width: 200px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 120px);
+  width: 80%;
+  margin: 80px auto 60px;
+  overflow-y: auto;
+}
+
+.search-box {
+  width: 20%;
+  margin: 20px 40%;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 100%;
+}
+.instruccion-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-terminar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#answer-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 566px) {
+  header h3 {
+    display: flex;
+    align-items: center;
+    height: 47px;
+    margin: auto auto auto 10%;
+  }
+  header a {
+    width: auto;
+  }
+  header .ingresar {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ingresar {
+    width: 15vh;
+  }
+}
